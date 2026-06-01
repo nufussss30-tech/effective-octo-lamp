@@ -1,0 +1,135 @@
+body {
+  background: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero */
+
+.hero-berita {
+  height: 250px;
+  background: linear-gradient(rgba(0, 81, 162, 0.85), rgba(0, 81, 162, 0.85)), url('../img/bg.jpg');
+
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+}
+
+.hero-content h1 {
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+/* Card */
+
+.berita-card {
+  margin-top: -50px;
+  border-radius: 20px;
+}
+
+/* Tombol */
+
+.btn-kembali {
+  border-radius: 30px;
+  padding: 8px 20px;
+}
+
+/* Judul */
+
+.judul {
+  color: #0d6efd;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.subjudul {
+  color: #6c757d;
+  margin-top: 15px;
+}
+
+/* Info */
+
+.info-berita {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #6c757d;
+  font-size: 14px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 15px;
+}
+
+/* Gambar */
+
+.berita-img {
+  width: 100%;
+  max-width: 800px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.caption-img {
+  margin-top: 10px;
+  color: #6c757d;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* Artikel */
+
+.card-body p {
+  text-align: justify;
+  line-height: 1.9;
+  font-size: 17px;
+}
+
+/* Kutipan */
+
+blockquote {
+  background: #f8f9fa;
+  border-left: 5px solid #0d6efd;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 25px 0;
+  font-style: italic;
+}
+
+/* Kontak */
+
+.kontak-media {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.kontak-media h4 {
+  color: #0d6efd;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .hero-content {
+    padding-top: 70px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .berita-img {
+    height: 250px;
+  }
+
+  .card-body p {
+    font-size: 15px;
+  }
+}

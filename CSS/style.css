@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 123, 255, 0.85), rgba(0, 86, 179, 0.85)), url('assets/banner.jpg');
+
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+footer {
+  font-size: 14px;
+}
+
+.galeri-img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.galeri-img:hover {
+  transform: scale(1.05);
+}
+
+/* ==========================
+   BROSUR
+========================== */
+
+#brosur {
+  background: #fff;
+}
+
+.brosur-card {
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.brosur-card:hover {
+  transform: translateY(-5px);
+}
+
+.brosur-img {
+  width: 100%;
+  max-height: 650px;
+  object-fit: contain;
+  background: #f8f9fa;
+  padding: 15px;
+}
+
+#brosur .btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+/* Struktur Organisasi */
+
+#struktur {
+  scroll-margin-top: 80px;
+}
+
+.struktur-img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.struktur-img:hover {
+  transform: scale(1.02);
+}
